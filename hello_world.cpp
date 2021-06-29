@@ -1,8 +1,11 @@
 # include <iostream>
+# include <string>
 using namespace std;
 int main()
 {
-    cout<<"Hello, World!"<<endl;
+    string str ="adcbdef";
+    if (str.find("xyz")==string::npos)
+    cout<<"not found"<<endl;
     return 0;
 
 }
